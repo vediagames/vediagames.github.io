@@ -1,0 +1,232 @@
+@font-face {
+  font-family: dimboFont;
+  src: url("./fonts/Dimbo\ Regular.ttf");
+}
+
+@font-face {
+  font-family: latoBold;
+  src: url("./fonts/Lato-Bold.ttf");
+}
+
+@font-face {
+  font-family: latoRegular;
+  src: url("./fonts/Lato-Regular.ttf");
+}
+
+html,
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+body {
+  background-color: #1e1e1e;
+  color: #C5C5C5;
+  font-family: latoRegular !important;
+  font-size: 16px;
+}
+
+nav {
+  background-color: #1e1e1e;
+  border-radius: 10px;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.vector-container {
+  position: relative;
+  z-index: -1;
+  width: 100%;
+}
+
+.nav-link:hover {
+  color: #29b3ff !important;
+}
+
+.visit-store {
+  color: white !important;
+  background-color: #29b3ff;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: #29b3ff;
+  border-width: 3px;
+}
+
+.contact-us {
+  color: white !important;
+  background-color: #1e1e1e;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: #29b3ff;
+  border-width: 3px;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+.main-buttons {
+  font-size: 16px;
+  font-family: latoBold;
+  text-decoration: none;
+}
+
+.visit-store:hover {
+  background-color: #129ae5;
+  color: rgba(255, 255, 255, 0.5) !important;
+  border-color: #129ae5;
+  cursor: pointer;
+}
+
+.contact-us:hover {
+  color: rgba(255, 255, 255, 0.5) !important;
+  border-color: #129ae5;
+  cursor: pointer;
+}
+
+.tertiary-color {
+  color: #29b3ff;
+}
+
+.primary-color {
+  color: #ffd774;
+}
+
+/* .contact-us-container {
+  padding-top: 100px;
+  background-image: url(img/contact-us-background.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 860px;
+} */
+
+.mountains-svg {
+  width: 100%;
+  height: 860px;
+}
+
+.contact-us-container {
+  position: relative;
+}
+
+.contact-section {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -45%);
+}
+
+.form-control {
+  border-color: #ffd774;
+  border-style: solid;
+  border-width: 2px;
+  color: white;
+  background-color: #00000000;
+}
+
+.footer-text {
+  font-size: 14px;
+}
+.big-text {
+  font-family: dimboFont;
+  color: #81eaff;
+  font-size: 80;
+}
+
+.img-showcase {
+  border-style: solid;
+  border-color: #ffd774;
+  border-width: 2px;
+}
+
+.pageclip-form__success {
+  background-color: #242424ef;
+  color: #ffd774;
+  font-family: dimboFont;
+  font-size: 48;
+}
+
+.store-image-outline{
+  outline: #ffd774 solid 1px;
+}
+
+.store-listing-text{
+  font-size: 24;
+  color: white;
+  font-family: dimboFont;
+  text-align: left;
+  margin: 0 -1px;
+}
+
+.store-listing-price{
+  background-color: #29b3ff;
+  float: right;
+}
+
+h1 {
+  color:white;
+  font-family: dimboFont;
+  font-size: 64px;
+}
+
+h2 {
+  color:white;
+  font-family: dimboFont;
+  font-size: 48px;
+}
+
+h3 {
+  font-family: latoBold;
+  font-size: 18px;
+  letter-spacing: 10px;
+  color:white;
+}
+
+/* @media only screen and (max-width: 992px) {
+  h1 {
+    font-size: 48px;
+  }
+} */
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 14;
+  }
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 14px;
+  }
+
+  .mountains-svg {
+    width: 200%;
+    height: 650px;
+  }
+
+  .contact-us-container {
+    height: 650px;
+  }
+
+  .contact-section {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -35%);
+  }
+  
+  .store-listing-text{
+    font-size: 22;
+  }
+}
